@@ -27,6 +27,6 @@ app.use(categoryRoutes);
 app.use(productRoutes);
 app.use(reviewRoutes);
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 3009, () => {
   console.log("Server started");
 });
